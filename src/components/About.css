@@ -1,0 +1,19 @@
+.aboutContainer{
+    border: 2px solid red;
+    display: flex;
+}
+
+.aboutTitle{
+    /* border: 2px solid blue; */
+    width: 40%;
+    text-align: end;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.aboutText{
+    /* border: 2px solid green; */
+    width: 60%;
+    padding: 40px;
+    font-size: 22px;
+}
