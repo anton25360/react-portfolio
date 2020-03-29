@@ -6,7 +6,7 @@ export class Skills extends Component {
         return (
             <div className='skillsContainer'>
                 <p className='skillsTitle'>Skills</p>
-                <p className='skillsText'>reading a good Fantasy novel.</p>
+                <p className='skillsText'>BADGES HERE</p>
             </div>
         )
     }
