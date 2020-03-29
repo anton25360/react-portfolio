@@ -18,7 +18,8 @@
     width: 60%;
     padding: 35px 140px 40px 40px;
     font-size: 21px;
-    color: rgb(48, 48, 48);
+    /* color: rgb(48, 48, 48); */
+    color: black;
 }
 
 .aboutFlag{
