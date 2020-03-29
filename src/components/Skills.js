@@ -5,7 +5,7 @@ export class Skills extends Component {
     render() {
         return (
             <div className='skillsContainer'>
-                <p className='skillsTitle'>Skills</p>
+                <p className='skillsTitle'>Languages</p>
                 <div className='skillsText'>
                     <p className='badgeFormat badge-html'>HTML</p>
                     <p className='badgeFormat badge-css'>CSS</p>
