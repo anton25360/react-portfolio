@@ -13,10 +13,15 @@
 
 .landingTextGreeting{
     /* text-align: center; */
-    font-size: 150px;
+    font-size: 170px;
     /* margin: 200px 0 ; */
+    /* border: 1px solid olivedrab; */
 }
 
 .landingTextSub{
     float: left;
+    font-size: 30px;
+    color: grey;
+    margin-left: 7px;
+    /* border: 1px solid olivedrab; */
 }
