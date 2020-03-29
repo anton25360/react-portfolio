@@ -39,7 +39,7 @@
 .badge-java {background-image: linear-gradient(135deg, #ED213A, #93291E); }
   
 .badge-firebase {background-image: linear-gradient(135deg, #FF4B2B, #FF416C); }
-    
+
 .badge-xml {background-image: linear-gradient(135deg, #4286f4, rgb(102, 109, 124)); }
   
 .badge-react {background-image: linear-gradient(135deg, #088076, #38ef7d); }
@@ -51,12 +51,15 @@
 .badge-go {background-image: linear-gradient(135deg, #26a0da, #71B280); }
   
 .badge-python {background-image: linear-gradient(135deg, #45B649, rgb(188, 196, 52)); }
+
+.badge-git {background-image: linear-gradient(135deg, #667571, rgb(4, 5, 4)); }
   
 .badgeFormat{
     border-radius: 2px;
     padding: 4px 6px;
     display: inline-block;
     font-size: 15px;
-    color: white; 
+    color: white;
+    margin: 0 5px 2px 0;
 }
   
