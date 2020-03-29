@@ -1,0 +1,22 @@
+.skillsContainer{
+    /* border: 2px solid red; */
+    background-color: azure;
+    display: flex;
+    padding: 50px 0;
+}
+
+.skillsTitle{
+    /* border: 2px solid blue; */
+    width: 40%;
+    text-align: end;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.skillsText{
+    /* border: 2px solid green; */
+    width: 60%;
+    padding: 35px 140px 40px 40px;
+    font-size: 21px;
+    color: rgb(48, 48, 48);
+}
