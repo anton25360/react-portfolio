@@ -1,6 +1,7 @@
 .aboutContainer{
     /* border: 2px solid red; */
     display: flex;
+    margin: 50px 0;
 }
 
 .aboutTitle{
