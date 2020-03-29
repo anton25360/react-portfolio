@@ -1,7 +1,11 @@
 .landingContainer{
     padding: 200px 0;
     text-align: center;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+
+    background: linear-gradient(-45deg, #ecc864, #e95f94, #3b98e4, #3fe4bd);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
 }
 
 .landingTextContainer{
@@ -16,7 +20,7 @@
 .landingTextSub{
     float: left;
     font-size: 27px;
-    color: grey;
+    color: white;
     margin-left: 7px;
 }
 
@@ -29,4 +33,16 @@
     border-radius: 5px;
     margin: 35px 0 0 5px;
     border: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
