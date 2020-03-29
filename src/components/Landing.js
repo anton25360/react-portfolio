@@ -7,7 +7,7 @@ export class Landing extends Component {
             <div className='landingContainer'>
                 <div className='landingTextContainer'>
                     <h1 className='landingTextGreeting'>Hi, I'm Anton.</h1>
-                    <p className='landingTextSub'>Full Stack Web Developer</p><br/><br/>
+                    <p className='landingTextSub'>I'm a Full Stack Web Developer looking for a new challenge.</p><br/><br/>
                     <button className='landingTextBtn'>View My Work</button>
                 </div>
             </div>
