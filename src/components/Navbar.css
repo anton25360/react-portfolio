@@ -1,14 +1,19 @@
 nav{
-    /* border: 2px solid red; */
     padding: 20px;
     font-size: 30px;
-    background-color: rgba(197, 197, 197, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
 
+
+}
+
+.navBackground{
+    background: linear-gradient(-45deg, #ecc864, #e95f94, #3b98e4, #3fe4bd);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
 }
 
 .navElement{
     display: inline;
-    /* border: 2px solid blue; */
 }
 
 .navLeft{
@@ -21,5 +26,4 @@ nav{
     margin: 7px 30px 0 0;
     text-decoration: none;
     color: black;
-    /* background-color: rgba(139, 139, 139, 0.5); */
 }

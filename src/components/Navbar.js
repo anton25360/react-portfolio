@@ -4,7 +4,7 @@ import './Navbar.css'
 export class Navbar extends Component {
     render() {
         return (
-            <div>
+            <div className='navBackground'>
                 <nav>
                     <p className='navElement navLeft'>Anton Webb.</p>
                     <a className='navElement navRight' href="#contact">Contact</a>
