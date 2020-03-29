@@ -4,8 +4,11 @@ import './Landing.css'
 export class Landing extends Component {
     render() {
         return (
-            <div>
-                
+            <div className='landingContainer'>
+                <div className='landingTextContainer'>
+                    <h1 className='landingTextGreeting'>Hi, I'm Anton</h1>
+                    <p className='landingTextSub'>Full Stack Web Developer</p>
+                </div>
             </div>
         )
     }

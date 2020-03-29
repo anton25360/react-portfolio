@@ -1,0 +1,22 @@
+.landingContainer{
+    border: 2px solid red;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.landingTextContainer{
+    border: 2px solid blue;
+    /* text-align: center; */
+    display: inline-block;
+    /* padding: 200px 0; */
+}
+
+.landingTextGreeting{
+    /* text-align: center; */
+    font-size: 150px;
+    /* margin: 200px 0 ; */
+}
+
+.landingTextSub{
+    float: left;
+}
