@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import './ProjectTemplate.css'
 
+import react from '../res/react.png'
+
+
 export class ProjectTemplate extends Component {
     render() {
         return (
@@ -12,7 +15,7 @@ export class ProjectTemplate extends Component {
                     {/* {this.props.name}<br/>{this.props.description} */}
                 </div>
                 {/* <p className='PTDesc'>{this.props.description}</p> */}
-                <img className='PTicon' src='https://picsum.photos/42'/>
+                <img className='PTicon' src={react}/>
             </div>
         )
     }
