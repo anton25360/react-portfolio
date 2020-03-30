@@ -1,0 +1,40 @@
+.contactContainer{
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: #373e51;
+}
+
+.contactTextContainer{
+    /* border: 2px solid blue; */
+    display: inline-block;
+}
+
+.contactContainerTop{
+    /* border: 2px solid blue; */
+    margin: 50px 0 35px 0;
+    font-size: 20px;
+    /* color: white; */
+
+}
+
+.contactContainerBot{
+    /* border: 2px solid blue; */
+    float: left;
+    margin-bottom: 50px;
+}
+
+.contactLink{
+    margin-right: 30px;
+    color: white;
+}
+
+#mailText{
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+
+#mailLink{
+    color: rgb(69, 137, 224);
+    font-size: 20px;
+}
