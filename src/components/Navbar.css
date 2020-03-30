@@ -21,13 +21,13 @@ nav{
     color: rgb(24, 101, 201);
 }
 
-a{
+.navRight{
     display: inline-block;
     position: relative;
     text-decoration: none;
 }
 
-a:after {    
+.navRight:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -40,7 +40,7 @@ a:after {
     width: 0;
 }
 
-a:hover:after { 
+.navRight:hover:after { 
     width: 100%; 
     left: 0; 
 }

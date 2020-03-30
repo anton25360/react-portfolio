@@ -26,6 +26,7 @@
 .contactLink{
     margin-right: 30px;
     color: white;
+    text-decoration: none;
 }
 
 #mailText{
@@ -37,4 +38,5 @@
 #mailLink{
     color: rgb(69, 137, 224);
     font-size: 20px;
+    text-decoration: none;
 }
