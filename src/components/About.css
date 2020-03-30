@@ -1,7 +1,8 @@
 .aboutContainer{
     /* border: 2px solid red; */
     /* background-color: rgb(235, 235, 235); */
-    background-image: linear-gradient(to right, rgb(206, 241, 255), white, white);
+    /* background-image: linear-gradient(to right, rgb(206, 241, 255), white, white); */
+    background-color: lightcyan;
 
     display: flex;
     padding-top: 50px;

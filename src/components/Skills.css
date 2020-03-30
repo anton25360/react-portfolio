@@ -1,8 +1,11 @@
 .skillsContainer{
     /* border: 2px solid red; */
-    background-image: linear-gradient(to right, rgb(206, 241, 255), white, white);
+    /* background-image: linear-gradient(to right, rgb(206, 241, 255), white, white); */
     display: flex;
     padding-bottom: 50px;
+    /* border-bottom: 2px solid black; */
+    background-color: lightcyan;
+
 }
 
 .skillsTitle{

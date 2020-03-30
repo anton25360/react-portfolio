@@ -8,7 +8,7 @@ export class Projects extends Component {
     render() {
         return (
             <div className='projTarget'>
-            <p id='projTitle'><span id='slash'>/</span>projects</p><br/>
+            <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
                 <ProjectTemplate title='Wonders' description='7 Wonders of the World PWA.' icon='react'/>
                 <ProjectTemplate title='Wonders' description='7 Wonders of the World PWA.' icon='react'/>
