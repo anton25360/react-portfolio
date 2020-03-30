@@ -3,8 +3,8 @@ import './Navbar.css'
 
 export class Navbar extends Component {
 
-    scrollToAbout=()=>{
-        document.querySelector('.aboutContainer').scrollIntoView({ 
+    scroll=(input)=>{
+        document.querySelector(input).scrollIntoView({ 
             behavior: 'smooth' 
           });
         
@@ -18,9 +18,9 @@ export class Navbar extends Component {
             <div className='navBackground'>
                 <nav>
                     <p className='navElement navLeft'>Anton Webb.</p>
-                    <a className='navElement navRight' href='#contact' onClick={()=> this.scrollToAbout()}>Contact</a>
-                    <a className='navElement navRight' href='#projects' onClick={()=> this.scrollToAbout()}>Projects</a>
-                    <a className='navElement navRight' href="#about" onClick={()=> this.scrollToAbout()}>About</a>
+                    <a className='navElement navRight' href='#contact' onClick={()=> this.scroll('.aboutContainer')}>Contact</a>
+                    <a className='navElement navRight' href='#projects' onClick={()=> this.scroll('.aboutContainer')}>Projects</a>
+                    <a className='navElement navRight' href="#about" onClick={()=> this.scroll('.aboutContainer')}>About</a>
 
                 </nav>
                 
