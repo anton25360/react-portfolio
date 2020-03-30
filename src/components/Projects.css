@@ -17,7 +17,7 @@
 
 }
 
-.projectContainer + #projTitle{
-    background-color: rgb(249, 255, 242);
+.projectContainer, #projTitle{
+    background-color: rgb(255, 248, 248);
 
 }
