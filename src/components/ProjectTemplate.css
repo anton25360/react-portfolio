@@ -1,5 +1,5 @@
 .PTcontainer{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: inline-block;
     margin: 10px;
     border-radius: 3px;
@@ -10,9 +10,9 @@
 }
 
 .PTimage{
-    /* border-bottom: 1px solid black; */
-    padding: 5px;
-    border-radius: 7px;
+    border-bottom: 1px solid black;
+    /* padding: 15px; */
+    border-radius: 3px 3px 0px 0px;
 }
 
 .PTtext{

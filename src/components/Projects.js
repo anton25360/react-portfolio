@@ -3,7 +3,6 @@ import './Projects.css'
 
 import ProjectTemplate from './ProjectTemplate'
 
-
 export class Projects extends Component {
     render() {
         return (
