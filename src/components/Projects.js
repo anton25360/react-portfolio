@@ -7,8 +7,8 @@ import ProjectTemplate from './ProjectTemplate'
 export class Projects extends Component {
     render() {
         return (
-            <div>
-                <ProjectTemplate/>
+            <div className='projectContainer'>
+                <ProjectTemplate title='Wonders' description='A PWA showing info on the 7 Wonders.' icon='react'/>
             </div>
         )
     }
