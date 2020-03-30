@@ -12,7 +12,7 @@
 .contactContainerTop{
     /* border: 2px solid blue; */
     margin: 50px 0 35px 0;
-    font-size: 20px;
+    font-size: 21px;
     /* color: white; */
 
 }
@@ -24,7 +24,7 @@
 }
 
 .contactLink{
-    margin-right: 30px;
+    margin-right: 50px;
     color: white;
     text-decoration: none;
 }
