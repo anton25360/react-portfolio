@@ -18,8 +18,8 @@ export class Navbar extends Component {
             <div className='navBackground'>
                 <nav>
                     <p className='navElement navLeft'><spam id='slash'>/</spam>anton</p>
-                    <a className='navElement navRight' href='#contact' onClick={()=> this.scroll('.aboutContainer')}>Contact</a>
-                    <a className='navElement navRight' href='#projects' onClick={()=> this.scroll('.aboutContainer')}>Projects</a>
+                    <a className='navElement navRight' href='#contact' onClick={()=> this.scroll('.contactContainer')}>Contact</a>
+                    <a className='navElement navRight' href='#projects' onClick={()=> this.scroll('.projectContainer')}>Projects</a>
                     <a className='navElement navRight' href="#about" onClick={()=> this.scroll('.aboutContainer')}>About</a>
 
                 </nav>

@@ -16,8 +16,8 @@ export class Landing extends Component {
                 <div className='landingTextContainer'>
                     <h1 className='landingTextGreeting'>Hi, I'm Anton.</h1>
                     <p className='landingTextSub'>I'm a Full Stack Web Developer looking for a new challenge.</p><br/><br/>
-                    <button className='landingTextBtn' onClick={()=> this.scroll('.aboutContainer')}>View My Work</button>
-                    <button className='landingTextBtn' onClick={()=> this.scroll('.aboutContainer')}>Get In Touch</button>
+                    <button className='landingTextBtn' onClick={()=> this.scroll('.projectContainer')}>View My Work</button>
+                    <button className='landingTextBtn' onClick={()=> this.scroll('.contactContainer')}>Get In Touch</button>
                 </div>
             </div>
         )
