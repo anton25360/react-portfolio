@@ -17,9 +17,8 @@ export class ProjectTemplate extends Component {
                 <div className='PTtext'>
                     <p className='PTtitle'>{this.props.title}</p><br />
                     <p className='PTdesc'>{this.props.description}</p><br/>
-                    <button className='PTbtn'>View Source</button>
-                    <button className='PTbtn'>View Demo</button>
-                    {/* <img className='PTicon' src={react} /> */}
+                    <button className='PTbtn'>View Source  <i class="fas fa-code-branch"></i></button>
+                    <button className='PTbtn'>View Demo  <i class="fas fa-globe-americas"></i></button>
                 </div>
                 <img className='PTicon' src={react} alt='icon' />
             </div>
