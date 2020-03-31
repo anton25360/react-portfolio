@@ -17,6 +17,12 @@ export class Projects extends Component {
                 {/* android */}
                 <ProjectTemplate title='Cascade' description='Android To-Do App.          ' icon='android'/>
 
+                {/* go */}
+                {/* cli podcast downloader */}
+
+                {/* python */}
+                {/* covid19 LED tracker */}
+
                 {/* ts */}
                 <ProjectTemplate title='Glass' description='Cocktail guide (From API).   ' icon='ts'/>
 
@@ -30,6 +36,7 @@ export class Projects extends Component {
                 {/* php */}
                 <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' icon='js'/>
                 <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on ingredients).' icon='js'/>
+                {/* home dashboard */}
 
             </div>
             </div>
