@@ -29,38 +29,28 @@
 }
 
 /* badges */
+
+/* front */
 .badge-html {background-image: linear-gradient(135deg, #E44D26, #ff7b74); }
-  
 .badge-css {background-image: linear-gradient(135deg, #4776E6, #8E54E9); }
-  
 .badge-sass {background-image: linear-gradient(135deg, rgb(123, 13, 219), #DA22FF); }
-  
 .badge-bootstrap {background-image: linear-gradient(135deg, #622c88, #a044ff); }
-  
-.badge-php {background-image: linear-gradient(135deg, #6347b3, #ad5389); }
-  
 .badge-js {background-image: linear-gradient(135deg, #F37335, #ffae00); }
-  
 .badge-ts {background-image: linear-gradient(135deg, #2F80ED, #56CCF2); }
-  
-.badge-java {background-image: linear-gradient(135deg, #ED213A, #93291E); }
-  
-.badge-firebase {background-image: linear-gradient(135deg, #FF4B2B, #FF416C); }
-
-/* .badge-xml {background-image: linear-gradient(135deg, #4286f4, rgb(102, 109, 124)); } */
-  
 .badge-react {background-image: linear-gradient(135deg, #2948ff, #85a4ff); }
-  
-.badge-pwa {background-image: linear-gradient(135deg, rgb(0, 34, 158), #0575E6); }
-  
-.badge-node {background-image: linear-gradient(135deg, rgb(21, 133, 39), rgb(50, 226, 89)); }
-    
-.badge-go {background-image: linear-gradient(135deg, rgb(24, 182, 177), #93EDC7); }
-  
-.badge-python {background-image: linear-gradient(135deg, #45B649, rgb(158, 236, 93)); }
 
+/* back */
+.badge-firebase {background-image: linear-gradient(135deg, #FF4B2B, #FF416C); }
+.badge-java {background-image: linear-gradient(135deg, #ED213A, #93291E); }
+.badge-php {background-image: linear-gradient(135deg, #6347b3, #ad5389); }
+.badge-node {background-image: linear-gradient(135deg, rgb(21, 133, 39), rgb(50, 226, 89)); }
+.badge-python {background-image: linear-gradient(135deg, #45B649, rgb(158, 236, 93)); }
+.badge-go {background-image: linear-gradient(135deg, rgb(24, 182, 177), #93EDC7); }
+
+/* other */
 .badge-git {background-image: linear-gradient(135deg, rgb(28, 31, 48), #536976); }
-  
+.badge-pwa {background-image: linear-gradient(135deg, rgb(0, 34, 158), #0575E6); }
+
 .badgeFormat{
     border-radius: 2px;
     padding: 4px 6px;
