@@ -3,7 +3,7 @@
     /* background-image: linear-gradient(to right, rgb(206, 241, 255), white, white); */
     display: flex;
     padding-bottom: 50px;
-    /* border-bottom: 2px solid black; */
+    border-bottom: 1px solid black;
     background-color: lightcyan;
 
 }
@@ -24,39 +24,33 @@
     color: rgb(48, 48, 48);
 }
 
+.skillsIndicator{
+    font-size: 18px;
+}
+
 /* badges */
-.badge-html {background-image: linear-gradient(135deg, #ff3493, #ff7b74); }
-  
+
+/* front */
+.badge-html {background-image: linear-gradient(135deg, #E44D26, #ff7b74); }
 .badge-css {background-image: linear-gradient(135deg, #4776E6, #8E54E9); }
-  
-.badge-sass {background-image: linear-gradient(135deg, rgb(115, 5, 211), #DA22FF); }
-  
-.badge-bootstrap {background-image: linear-gradient(135deg, #3f2b96, #8f94fb); }
-  
-.badge-php {background-image: linear-gradient(135deg, #3c1053, #ad5389); }
-  
+.badge-sass {background-image: linear-gradient(135deg, #7b0ddb, #DA22FF); }
+.badge-bootstrap {background-image: linear-gradient(135deg, #622c88, #a044ff); }
 .badge-js {background-image: linear-gradient(135deg, #F37335, #ffae00); }
-  
 .badge-ts {background-image: linear-gradient(135deg, #2F80ED, #56CCF2); }
-  
-.badge-java {background-image: linear-gradient(135deg, #ED213A, #93291E); }
-  
+.badge-react {background-image: linear-gradient(135deg, #2948ff, #85a4ff); }
+
+/* back */
 .badge-firebase {background-image: linear-gradient(135deg, #FF4B2B, #FF416C); }
+.badge-java {background-image: linear-gradient(135deg, #ED213A, #93291E); }
+.badge-php {background-image: linear-gradient(135deg, #6347b3, #ad5389); }
+.badge-node {background-image: linear-gradient(135deg, #158527, #32e259); }
+.badge-python {background-image: linear-gradient(135deg, #45B649, #9eec5d); }
+.badge-go {background-image: linear-gradient(135deg, #18b6b1, #93EDC7); }
 
-.badge-xml {background-image: linear-gradient(135deg, #4286f4, rgb(102, 109, 124)); }
-  
-.badge-react {background-image: linear-gradient(135deg, #088076, #38ef7d); }
-  
-.badge-pwa {background-image: linear-gradient(135deg, #021B79, #0575E6); }
-  
-.badge-node {background-image: linear-gradient(135deg, #45a247, #2e58f1); }
-    
-.badge-go {background-image: linear-gradient(135deg, #26a0da, #71B280); }
-  
-.badge-python {background-image: linear-gradient(135deg, #45B649, rgb(188, 196, 52)); }
+/* other */
+.badge-git {background-image: linear-gradient(135deg, #1c1f30, #536976); }
+.badge-pwa {background-image: linear-gradient(135deg, #00229e, #0575E6); }
 
-.badge-git {background-image: linear-gradient(135deg, #667571, rgb(4, 5, 4)); }
-  
 .badgeFormat{
     border-radius: 2px;
     padding: 4px 6px;
