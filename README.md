@@ -1,3 +1,3 @@
-## Portfolio v3
+# Anton Webb's Portfolio
 
-Built in react.
+This is the repository for my website at https://antonwebb.me. Created in React.
