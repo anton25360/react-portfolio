@@ -14,8 +14,8 @@ export class ProjectTemplate extends Component {
                 </div>
                 <br />
                 <div className='PTbuttons'>
-                    <a href='https://github.com' className='PTbtn'>View Source  <i class="fas fa-code-branch"></i></a>
-                    <a href='ahahaha.com' className='PTbtn'>View Demo  <i class="fas fa-globe-americas"></i></a>
+                    <a href={this.props.source} className='PTbtn'>View Source  <i class="fas fa-code-branch"></i></a>
+                    <a href={this.props.demo} className='PTbtn'>View Demo  <i class="fas fa-globe-americas"></i></a>
                     <p className={`badgeFormat PTtag ${this.props.class}`}>{this.props.tag}</p>
                 </div>
 
