@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 30px 0 70px 0;
     /* background-image: linear-gradient(to right, rgb(206, 241, 255), white, white); */
     /* background-color: rgb(249, 255, 242); */
-
 }
 
 #projTitle{
@@ -14,10 +13,8 @@
     padding-top: 40px;
     font-size: 40px;
     /* background-color: rgb(249, 255, 242); */
-
 }
 
 .projectContainer, #projTitle{
     background-color: rgb(255, 248, 248);
-
 }
