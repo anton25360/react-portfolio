@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Contact.css'
 
+import resume from '../res/AntonWebbResume.pdf'
+
 export class Contact extends Component {
     render() {
         return (
@@ -9,10 +11,10 @@ export class Contact extends Component {
                 <div className='contactTextContainer'>
 
                     <div className='contactContainerTop'>
-                        <a className='contactLink' href='www.anton.com'>Github</a>
-                        <a className='contactLink' href='www.anton.com'>LinkedIn</a>
-                        <a className='contactLink' href='www.anton.com'>Resume</a>
-                        <a className='contactLink' href='www.anton.com'>Medium</a>
+                        <a className='contactLink' target="_blank" href='https://github.com/anton25360'>Github</a>
+                        <a className='contactLink' target="_blank" href='https://www.linkedin.com/in/anton-webb/'>LinkedIn</a>
+                        <a className='contactLink' target="_blank" href={resume} download>Resume</a>
+                        <a className='contactLink' target="_blank" href='https://medium.com/@anton25360'>Medium</a>
                     </div>
                     
                     <div className='contactContainerBot'>
