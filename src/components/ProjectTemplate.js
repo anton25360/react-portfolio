@@ -55,8 +55,9 @@ export class ProjectTemplate extends Component {
                     <p className='PTdesc'>{this.props.description}</p><br/>
                     <button className='PTbtn'>View Source  <i class="fas fa-code-branch"></i></button>
                     <button className='PTbtn'>View Demo  <i class="fas fa-globe-americas"></i></button>
+                    <p className='badgeFormat badge-react'>ReactJS</p>
                 </div>
-                <img className='PTicon' src={this.selectIcon(this.props.icon)} alt='icon' />
+                {/* <img className='PTicon' src={this.selectIcon(this.props.icon)} alt='icon' /> */}
 
             </div>
         )
