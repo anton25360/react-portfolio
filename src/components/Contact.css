@@ -14,6 +14,8 @@
     margin: 50px 0 35px 0;
     font-size: 21px;
     /* color: white; */
+    display: flex;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -39,4 +41,29 @@
     color: rgb(77, 147, 238);
     font-size: 20px;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contactContainer{
+        /* border: 2px solid red; */
+        text-align: start;
+    }
+
+    .contactContainerTop{
+        flex-direction: column;
+        text-align: start;
+        /* border: 2px solid red; */
+        margin-left: 40px;
+    }
+
+    .contactContainerBot{
+        /* text-align: start; */
+        /* border: 2px solid red; */
+        margin-left: 40px;
+    }
+
+    .contactLink{
+        margin: 0 0 10px 0px;
+    }
 }

@@ -25,4 +25,8 @@
         padding: 20px 0;
         justify-content: space-evenly ;
     }
+
+    #projTitle{
+        padding-top: 30px;
+    }
 }
