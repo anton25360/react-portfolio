@@ -15,7 +15,7 @@ export class Navbar extends Component {
 
 
         return (
-            <div className='navBackground'>
+            <div className='navContainer'>
                 <nav>
                     <p className='navElement navLeft'><spam id='slash'>/</spam>anton</p>
                     <a className='navElement navRight' href='#contact' onClick={()=> this.scroll('.contactContainer')}>Contact</a>

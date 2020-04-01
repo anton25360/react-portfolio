@@ -4,7 +4,7 @@ nav{
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.navBackground{
+.navContainer{
     background: linear-gradient(-45deg, #ecc864, #e95f94, #3b98e4, #3fe4bd);
 	background-size: 400% 400%;
 	animation: gradient 13s ease infinite;
@@ -57,3 +57,10 @@ nav{
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .navContainer {
+        visibility: hidden;
+      height: 0;
+    }
+  }
