@@ -60,4 +60,24 @@
     color: white;
     margin: 0 5px 2px 0;
 }
-  
+
+@media only screen and (max-width: 600px) {
+
+    .skillsContainer{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .skillsTitle{
+        width: 100%;
+        text-align: start;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .skillsText{
+        width: 100%;
+        padding: 30px 40px 30px 20px;
+    }
+}
