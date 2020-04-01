@@ -10,12 +10,12 @@ export class Projects extends Component {
             <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
                 {/* react */}
-                <ProjectTemplate title='SynergyOS' description='Browser-based OS.' tag='ReactJS' class='badge-react'/>
-                <ProjectTemplate title='Wonders' description='7 Wonders of the World PWA.' tag='ReactJS' class='badge-react'/>
+                <ProjectTemplate title='SynergyOS' description='Browser-based OS (with apps and windows).' tag='ReactJS' class='badge-react'/>
+                <ProjectTemplate title='Wonders' description='7 Wonders of the World travel guide.' tag='ReactJS' class='badge-react'/>
                 <ProjectTemplate title='Crypto to Freddo' description='Cryptocurrency to Freddo converter.' tag='ReactJS' class='badge-react'/>
 
-                {/* android */}
-                <ProjectTemplate title='Cascade' description='Android To-Do App.' tag='Java' class='badge-java'/>
+                {/* java */}
+                <ProjectTemplate title='Cascade' description='Android To-Do App (with Firebase).' tag='Java' class='badge-java'/>
 
                 {/* go */}
                 {/* cli podcast downloader */}
@@ -24,7 +24,7 @@ export class Projects extends Component {
                 {/* covid19 LED tracker */}
 
                 {/* ts */}
-                <ProjectTemplate title='Glass' description='Cocktail guide (From API).' tag='TypeScript' class='badge-ts'/>
+                <ProjectTemplate title='Glass' description='Cocktail guide (gets data from API).' tag='TypeScript' class='badge-ts'/>
 
                 {/* js */}
                 <ProjectTemplate title='Cobra Paint' description='Microsoft Paint Clone.' tag='JavaScript' class='badge-js'/>
@@ -35,7 +35,7 @@ export class Projects extends Component {
                 
                 {/* php */}
                 <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' tag='PHP' class='badge-php'/>
-                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on ingredients).' tag='PHP' class='badge-php'/>
+                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on available ingredients).' tag='PHP' class='badge-php'/>
                 {/* home dashboard */}
 
             </div>
