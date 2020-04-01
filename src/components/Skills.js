@@ -29,6 +29,7 @@ export class Skills extends Component {
                     <p className='skillsIndicator'>Other:</p>
                     <p className='badgeFormat badge-git'>git / CLI</p>
                     <p className='badgeFormat badge-pwa'>PWA</p>
+                    <p className='badgeFormat badge-api'>API</p>
                 </div>
             </div>
         )
