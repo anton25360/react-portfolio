@@ -18,3 +18,11 @@
 .projectContainer, #projTitle{
     background-color: rgb(255, 248, 248);
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .projectContainer{
+        padding: 20px 0;
+        justify-content: space-evenly ;
+    }
+}

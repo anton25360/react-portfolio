@@ -24,7 +24,7 @@ export class Projects extends Component {
             <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
                 {/* react */}
-                <ProjectTemplate title='SynergyOS' description='Browser-based OS (with apps and windows).' tag='ReactJS' class='badge-react' img={synergy} source='https://github.com/Mayden-Academy/2019-dec-synergyOs/' demo='https://synergyos.now.sh/'/>
+                <ProjectTemplate title='SynergyOS' description='Browser-based OS (with its own apps).' tag='ReactJS' class='badge-react' img={synergy} source='https://github.com/Mayden-Academy/2019-dec-synergyOs/' demo='https://synergyos.now.sh/'/>
                 <ProjectTemplate title='Wonders' description='7 Wonders of the World travel guide.' tag='ReactJS' class='badge-react' img={wonders} source='https://github.com/anton25360/react-wonders' demo='https://anton25360.github.io/react-wonders/'/>
                 <ProjectTemplate title='Crypto to Freddo' description='Cryptocurrency to Freddo converter.' tag='ReactJS' class='badge-react' img={freddo} source='https://github.com/anton25360/react-bitcoin2chocolate/' demo='https://anton25360.github.io/react-bitcoin2chocolate/'/>
                 {/* java */}
@@ -43,7 +43,7 @@ export class Projects extends Component {
                 <ProjectTemplate title='Coin' description='Simple heads or tails web app.' tag='JavaScript' class='badge-js' img={coin} source='https://github.com/anton25360/Heads-Tails' demo='https://anton25360.github.io/Heads-Tails/'/>
                 {/* php */}
                 <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' tag='PHP' class='badge-php' img={medal} source='https://github.com/anton25360/collection-medals' demo='https://dev.maydenacademy.co.uk/students/2019/aug/anton/collection-medals/'/>
-                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on available ingredients).' tag='PHP' class='badge-php' img={bread} source='https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras' demo='http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-bread-and-ifit/app/'/>
+                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on input ingredients).' tag='PHP' class='badge-php' img={bread} source='https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras' demo='http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-bread-and-ifit/app/'/>
                 {/* home dashboard */}
 
             </div>
