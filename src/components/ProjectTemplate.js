@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import './ProjectTemplate.css'
 
 //icons (48px)
-import react from '../res/react.png'
-import android from '../res/android.png'
-import go from '../res/go.png'
-import python from '../res/android.png'
-import ts from '../res/ts.png'
-import js from '../res/js.png'
-import php from '../res/php.png'
+// import react from '../res/react.png'
+// import android from '../res/android.png'
+// import go from '../res/go.png'
+// import python from '../res/android.png'
+// import ts from '../res/ts.png'
+// import js from '../res/js.png'
+// import php from '../res/php.png'
 
 
 //app screenshots
@@ -19,31 +19,7 @@ import synergy from '../res/synergy.png'
 export class ProjectTemplate extends Component {
 
     selectIcon=(input)=>{
-        switch(input) {
-            case 'react':
-              return react
-              break;
-            case 'android':
-              return android
-              break;
-            case 'go':
-              return go
-              break;
-            case 'python':
-              return python
-              break;
-            case 'ts':
-              return ts
-              break;
-            case 'js':
-              return js
-              break;
-            case 'php':
-              return php
-              break;
-            default:
-              return js
-          }
+
     }
 
     render() {
