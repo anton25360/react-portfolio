@@ -34,8 +34,8 @@ export class Projects extends Component {
                 <ProjectTemplate title='Coin' description='Simple heads or tails web app.' icon='js'/>
                 
                 {/* php */}
-                <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' icon='js'/>
-                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on ingredients).' icon='js'/>
+                <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' icon='php'/>
+                <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on ingredients).' icon='php'/>
                 {/* home dashboard */}
 
             </div>
