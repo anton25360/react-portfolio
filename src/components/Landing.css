@@ -56,6 +56,8 @@
     .landingTextGreeting{
         font-size: 70px;
         margin-top: -30px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .landingTextSub{
