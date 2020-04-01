@@ -18,10 +18,6 @@ import synergy from '../res/synergy.png'
 
 export class ProjectTemplate extends Component {
 
-    selectIcon=(input)=>{
-
-    }
-
     render() {
         return (
             <div className='PTcontainer'>
