@@ -13,7 +13,7 @@ export class Contact extends Component {
                     <div className='contactContainerTop'>
                         <a className='contactLink' rel="noopener noreferrer" target="_blank" href='https://github.com/anton25360'>Github</a>
                         <a className='contactLink' rel="noopener noreferrer" target="_blank" href='https://www.linkedin.com/in/anton-webb/'>LinkedIn</a>
-                        <a className='contactLink' rel="noopener noreferrer" target="_blank" href={resume} download>Resume</a>
+                        <a className='contactLink' rel="noopener noreferrer" target="_blank" href={resume} download>CV</a>
                         <a className='contactLink' rel="noopener noreferrer" target="_blank" href='https://medium.com/@anton25360'>Medium</a>
                     </div>
                     
