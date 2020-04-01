@@ -45,6 +45,7 @@
 .PTbuttons{
     /* border: 2px solid red; */
     display: inline-block;
+    margin-bottom: 4px;
 }
 
 .PTbtn{
@@ -56,6 +57,7 @@
     font-size: 14px;
     /* margin: 5px 8px 0 -1px; */
     margin: 0 0 6px 5px;
+    text-decoration: none;
 }
 
 .PTtag{
