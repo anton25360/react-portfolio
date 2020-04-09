@@ -16,6 +16,7 @@ import planet from '../res/planet.png'
 import marble from '../res/marble.png'
 import medal from '../res/medal.png'
 import bread from '../res/bread.png'
+import pi from '../res/pi.png'
 
 export class Projects extends Component {
     render() {
@@ -31,8 +32,6 @@ export class Projects extends Component {
                 <ProjectTemplate title='Cascade' description='Android To-Do App (with Firebase).' tag='Java' class='badge-java' img={cascade} source='https://github.com/anton25360/Cascade-android' demo='https://bit.ly/cascadego'/>
                 {/* go */}
                 {/* cli podcast downloader */}
-                {/* python */}
-                {/* covid19 LED tracker */}
                 {/* ts */}
                 <ProjectTemplate title='Glass' description='Cocktail guide (gets data from API).' tag='TypeScript' class='badge-ts' img={glass} source='https://github.com/anton25360/Glass/' demo='https://anton25360.github.io/Glass/app'/>
                 {/* js */}
@@ -45,6 +44,9 @@ export class Projects extends Component {
                 <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' tag='PHP' class='badge-php' img={medal} source='https://github.com/anton25360/collection-medals' demo='https://dev.maydenacademy.co.uk/students/2019/aug/anton/collection-medals/'/>
                 <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on input ingredients).' tag='PHP' class='badge-php' img={bread} source='https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras' demo='http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-bread-and-ifit/app/'/>
                 {/* home dashboard */}
+                {/* python */}
+                <ProjectTemplate title='Covid-19 Tracker' description='Displays data through CLI & LEDs.' tag='Python' class='badge-python' img={pi} source='https://github.com/anton25360/python-covidTracker' demo='https://github.com/anton25360/python-covidTracker#output'/>
+
 
             </div>
             </div>
