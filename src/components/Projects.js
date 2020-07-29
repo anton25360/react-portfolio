@@ -24,14 +24,14 @@ export class Projects extends Component {
             <div className='projTarget'>
             <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
+                {/* angular */}
+                <ProjectTemplate title='SynergyOS' description='Browser-based OS (with its own apps).' tag='ReactJS' class='badge-react' img={synergy} source='https://github.com/Mayden-Academy/2019-dec-synergyOs/' demo='https://synergyos.now.sh/'/>
                 {/* react */}
                 <ProjectTemplate title='SynergyOS' description='Browser-based OS (with its own apps).' tag='ReactJS' class='badge-react' img={synergy} source='https://github.com/Mayden-Academy/2019-dec-synergyOs/' demo='https://synergyos.now.sh/'/>
                 <ProjectTemplate title='Wonders' description='7 Wonders of the World travel guide.' tag='ReactJS' class='badge-react' img={wonders} source='https://github.com/anton25360/react-wonders' demo='https://anton25360.github.io/react-wonders/'/>
                 <ProjectTemplate title='Crypto to Freddo' description='Cryptocurrency to Freddo converter.' tag='ReactJS' class='badge-react' img={freddo} source='https://github.com/anton25360/react-bitcoin2chocolate/' demo='https://anton25360.github.io/react-bitcoin2chocolate/'/>
                 {/* java */}
                 <ProjectTemplate title='Cascade' description='Android To-Do App (with Firebase).' tag='Java' class='badge-java' img={cascade} source='https://github.com/anton25360/Cascade-android' demo='https://bit.ly/cascadego'/>
-                {/* go */}
-                {/* cli podcast downloader */}
                 {/* ts */}
                 <ProjectTemplate title='Glass' description='Cocktail guide (gets data from API).' tag='TypeScript' class='badge-ts' img={glass} source='https://github.com/anton25360/Glass/' demo='https://anton25360.github.io/Glass/app'/>
                 {/* js */}
@@ -43,7 +43,6 @@ export class Projects extends Component {
                 {/* php */}
                 <ProjectTemplate title='Medal Collection' description='Simple MySQL medal collection.' tag='PHP' class='badge-php' img={medal} source='https://github.com/anton25360/collection-medals' demo='https://dev.maydenacademy.co.uk/students/2019/aug/anton/collection-medals/'/>
                 <ProjectTemplate title='Bread and Ifits' description='Recipe finder (based on input ingredients).' tag='PHP' class='badge-php' img={bread} source='https://github.com/Mayden-Academy/2019-Aug-Bread-and-ifit-cobras' demo='http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-bread-and-ifit/app/'/>
-                {/* home dashboard */}
                 {/* python */}
                 <ProjectTemplate title='Covid-19 Tracker' description='Displays data through CLI & LEDs.' tag='Python' class='badge-python' img={pi} source='https://github.com/anton25360/python-covidTracker' demo='https://github.com/anton25360/python-covidTracker#output'/>
 
