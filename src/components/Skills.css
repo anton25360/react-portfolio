@@ -38,6 +38,8 @@
 .badge-js {background-image: linear-gradient(135deg, #F37335, #ffae00); }
 .badge-ts {background-image: linear-gradient(135deg, #2F80ED, #56CCF2); }
 .badge-react {background-image: linear-gradient(135deg, #2948ff, #85a4ff); }
+.badge-angular {background-image: linear-gradient(135deg, #D31027, #eb4054); }
+.badge-vue {background-image: linear-gradient(135deg, #18b6b1, #93EDC7); }
 
 /* back */
 .badge-firebase {background-image: linear-gradient(135deg, #FF4B2B, #FF416C); }
@@ -45,7 +47,6 @@
 .badge-php {background-image: linear-gradient(135deg, #6347b3, #ad5389); }
 .badge-node {background-image: linear-gradient(135deg, #0d7970, #38ef7d); }
 .badge-python {background-image: linear-gradient(135deg, #2c832f, #9eec5d); }
-.badge-go {background-image: linear-gradient(135deg, #18b6b1, #93EDC7); }
 
 /* other */
 .badge-git {background-image: linear-gradient(135deg, #1c1f30, #536976); }

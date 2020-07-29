@@ -15,6 +15,8 @@ export class Skills extends Component {
                     <p className='badgeFormat badge-js'>JavaScript</p>
                     <p className='badgeFormat badge-ts'>TypeScript</p>
                     <p className='badgeFormat badge-react'>ReactJS</p>
+                    <p className='badgeFormat badge-angular'>Angular</p>
+                    <p className='badgeFormat badge-vue'>VueJS</p>
                     <br/><br/>
 
                     <p className='skillsIndicator'>Back End:</p>
@@ -23,7 +25,6 @@ export class Skills extends Component {
                     <p className='badgeFormat badge-php'>PHP</p>
                     <p className='badgeFormat badge-node'>NodeJS</p>
                     <p className='badgeFormat badge-python'>Python</p>
-                    <p className='badgeFormat badge-go'>Go</p>
                     <br/><br/>
 
                     <p className='skillsIndicator'>Other:</p>
