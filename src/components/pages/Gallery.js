@@ -1,10 +1,11 @@
 import React from "react";
 import "../../App.css";
+import './Gallery.css'
 
 function Gallery() {
   return (
     <div>
-      <p>testing</p>
+      <p>Welcome to prohjects gallery</p>
     </div>
   );
 }
