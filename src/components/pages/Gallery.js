@@ -5,7 +5,8 @@ import './Gallery.css'
 function Gallery() {
   return (
     <div>
-      <p>Welcome to prohjects gallery</p>
+      <h1>Projects Gallery</h1>
+      <p>The Projects Gallery is meant to showcase all my smaller projects that aren't massivly complex but are still worthy of being part of my portfolio, as well as my laguage diversity.</p>
     </div>
   );
 }
