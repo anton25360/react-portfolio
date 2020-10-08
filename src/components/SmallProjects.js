@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Projects.css'
+import './SmallProjects.css'
 
 import ProjectTemplate from './ProjectTemplate'
 
@@ -19,11 +19,11 @@ import bread from '../res/bread.png'
 import pi from '../res/pi.png'
 import budgetCalculator from '../res/budgetCalculator.png'
 
-export class Projects extends Component {
+export class SmallProjects extends Component {
     render() {
         return (
-            <div className='projTarget'>
-            <p id='projTitle'><span id='slash'>/</span>projects</p>
+            // <div className='projTarget'>
+            // <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
                 {/* angular */}
                 <ProjectTemplate title='Budget Calculator' description='Budget Calculator web app.' tag='Angular' class='badge-angular' img={budgetCalculator} source='https://github.com/anton25360/BudgetCalculator' demo='https://anton25360.github.io/BudgetCalculator/'/>
@@ -49,9 +49,9 @@ export class Projects extends Component {
             
 
             </div>
-            </div>
+            // </div>
         )
     }
 }
 
-export default Projects
+export default SmallProjects

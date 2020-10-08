@@ -1,25 +1,24 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
 
-//components
-import Navbar from './components/Navbar'
-import Landing from './components/Landing'
-import About from './components/About'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Home from "./components/pages/Home";
+import Gallery from "./components/pages/Gallery";
 
 function App() {
   return (
-    <div >
-      <Navbar />
-      <Landing />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/gallery">
+            <Gallery />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
