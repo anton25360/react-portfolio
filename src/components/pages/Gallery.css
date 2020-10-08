@@ -1,17 +1,21 @@
-h1 {
+#galleryContent {
+  /* background-color: #ec2f4b; */
+  border: 2px solid red;
+}
+#galleryTitle {
   font-size: 60px;
   margin: 30px;
   display: inline-block;
 
-  background: linear-gradient(to right, #800080 0%, #ec2F4B 100%);
+  background: linear-gradient(to right, #800080 0%, #ec2f4b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.titleContainer {
+#galleryTitleContainer {
   text-align: center;
 }
 
-p {
+#gallerySubtitle {
   /* border: 2px solid red; */
   text-align: center;
   font-size: 20px;
