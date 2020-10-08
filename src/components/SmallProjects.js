@@ -22,8 +22,8 @@ import budgetCalculator from '../res/budgetCalculator.png'
 export class SmallProjects extends Component {
     render() {
         return (
-            <div className='projTarget'>
-            <p id='projTitle'><span id='slash'>/</span>projects</p>
+            // <div className='projTarget'>
+            // <p id='projTitle'><span id='slash'>/</span>projects</p>
             <div className='projectContainer'>
                 {/* angular */}
                 <ProjectTemplate title='Budget Calculator' description='Budget Calculator web app.' tag='Angular' class='badge-angular' img={budgetCalculator} source='https://github.com/anton25360/BudgetCalculator' demo='https://anton25360.github.io/BudgetCalculator/'/>
@@ -49,7 +49,7 @@ export class SmallProjects extends Component {
             
 
             </div>
-            </div>
+            // </div>
         )
     }
 }
