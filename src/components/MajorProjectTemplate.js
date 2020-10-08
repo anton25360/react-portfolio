@@ -5,7 +5,7 @@ export default class MajorProjectTemplate extends Component {
   render() {
     return (
       <div id="MPTContainer">
-        <img className={this.props.type} id="MPTImage" src={this.props.image} />
+        <img className={this.props.type} id="MPTImage" alt='App Screenshot' src={this.props.image} />
         <div id="MPTTextContainer">
           <h1 id="MPTTitle" className={this.props.name}>
             {this.props.name}
