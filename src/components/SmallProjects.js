@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Projects.css'
+import './SmallProjects.css'
 
 import ProjectTemplate from './ProjectTemplate'
 
@@ -19,7 +19,7 @@ import bread from '../res/bread.png'
 import pi from '../res/pi.png'
 import budgetCalculator from '../res/budgetCalculator.png'
 
-export class Projects extends Component {
+export class SmallProjects extends Component {
     render() {
         return (
             <div className='projTarget'>
@@ -54,4 +54,4 @@ export class Projects extends Component {
     }
 }
 
-export default Projects
+export default SmallProjects
