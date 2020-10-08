@@ -23,13 +23,13 @@
 #MPSubtitle {
   text-align: center;
   font-size: 20px;
-  margin: 0 5%;
-  margin-bottom: 50px;
+  margin: 20px 5%;
+  margin-bottom: 80px;
 }
 
-#LookingForMore{
+/* #LookingForMore{
   font-size: 25px;
-}
+} */
 
 .MPTDivider {
   /* border: 2px solid red; */
