@@ -51,4 +51,12 @@
         margin: 2%;
           flex-direction: column;
     }
+    #MPTButton, #MPTTitle, #MPTInfo{
+      float: none;
+      text-align: center;
+    }
+
+    #MPTImage{
+      align-self: center;
+    }
   }

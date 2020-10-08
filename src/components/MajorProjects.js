@@ -8,7 +8,15 @@ import cascade from "../res/hd/cascade.png";
 export default class MajorProjects extends Component {
   render() {
     return (
+
       <div id="MPContainer">
+        <h1 id="MPTitle">Apps & Projects</h1>
+        {/* <p id="gallerySubtitle">
+          The Projects Gallery is meant to showcase all my smaller projects that
+          aren't massivly complex but are still worthy of being part of my
+          portfolio, as well as my language diversity.
+        </p> */}
+
         <MajorProjectTemplate
           name="Cascade"
           image={cascade}
@@ -21,6 +29,7 @@ export default class MajorProjects extends Component {
           storage, account management, remote crashing reports, usage
           statistics, A/B Testing, and more."
         />
+        <h1 className='MPTDivider'>...</h1>
         <MajorProjectTemplate
           name="Glass"
           image={glass}
