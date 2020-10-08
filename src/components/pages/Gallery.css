@@ -1,5 +1,5 @@
 #galleryContent {
-  /* background-color: #ec2f4b; */
+  background-color: rgb(246, 252, 255);
   /* border: 2px solid red; */
 }
 #galleryTitle {
@@ -23,6 +23,6 @@
 
 @media only screen and (max-width: 600px) {
   #gallerySubtitle {
-    margin: 2%;
+    margin: 5%;
   }
 }
