@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './About.css'
 
-import fr from '../res/fr.png'
-import gb from '../res/gb.png'
+// import fr from '../res/fr.png'
+// import gb from '../res/gb.png'
 
 export class About extends Component {
     render() {
