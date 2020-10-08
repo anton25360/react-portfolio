@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16016711d18141f58b58af9627908749",
+    "revision": "aaf30fe4eee2d912ac3d84062a89cd38",
     "url": "/index.html"
   },
   {
-    "revision": "63242373baa0c0d3c539",
-    "url": "/static/css/main.c0f6502d.chunk.css"
+    "revision": "770ca12ef807b24a433d",
+    "url": "/static/css/main.4bd2f48c.chunk.css"
   },
   {
-    "revision": "c92215c9c09626e1a39f",
-    "url": "/static/js/2.dff4be3d.chunk.js"
+    "revision": "879385106328a7fa1400",
+    "url": "/static/js/2.ebcefda5.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.dff4be3d.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/static/js/2.ebcefda5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63242373baa0c0d3c539",
-    "url": "/static/js/main.2868fca2.chunk.js"
+    "revision": "770ca12ef807b24a433d",
+    "url": "/static/js/main.a81a4abe.chunk.js"
   },
   {
     "revision": "166cf5f8ec0cbaf35406",
@@ -44,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cascade.294e5e54.png"
   },
   {
+    "revision": "f70eeb8a6205a4c37873ff6230c66c04",
+    "url": "/static/media/cascade.f70eeb8a.png"
+  },
+  {
     "revision": "9fae398c06b3ad34c6412ec2005e2098",
     "url": "/static/media/coin.9fae398c.png"
   },
   {
     "revision": "6bf1ad174420e15df86c6a025cc2aa19",
     "url": "/static/media/freddo.6bf1ad17.png"
+  },
+  {
+    "revision": "bad1bd95c8fd8839166ca7f21a4cbf89",
+    "url": "/static/media/glass.bad1bd95.png"
   },
   {
     "revision": "e99a8c9f4d4f2d026920c311c9a457bb",
@@ -78,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "178d4588ff12ed7a5f7ef2b5005ef51c",
     "url": "/static/media/synergy.178d4588.png"
+  },
+  {
+    "revision": "7bdc6415ba7faa20dacc0d79acb6caf8",
+    "url": "/static/media/synergyOS.7bdc6415.png"
   },
   {
     "revision": "784a8990b714f8fc984833993f5f1542",

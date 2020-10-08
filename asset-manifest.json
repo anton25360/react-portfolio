@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0f6502d.chunk.css",
-    "main.js": "/static/js/main.2868fca2.chunk.js",
-    "main.js.map": "/static/js/main.2868fca2.chunk.js.map",
+    "main.css": "/static/css/main.4bd2f48c.chunk.css",
+    "main.js": "/static/js/main.a81a4abe.chunk.js",
+    "main.js.map": "/static/js/main.a81a4abe.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d8445b1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.d8445b1d.js.map",
-    "static/js/2.dff4be3d.chunk.js": "/static/js/2.dff4be3d.chunk.js",
-    "static/js/2.dff4be3d.chunk.js.map": "/static/js/2.dff4be3d.chunk.js.map",
+    "static/js/2.ebcefda5.chunk.js": "/static/js/2.ebcefda5.chunk.js",
+    "static/js/2.ebcefda5.chunk.js.map": "/static/js/2.ebcefda5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7712ad6d83430eff6c114d749daad03b.js": "/precache-manifest.7712ad6d83430eff6c114d749daad03b.js",
+    "precache-manifest.8a1451b750b86c1ec3558686fdb03cbe.js": "/precache-manifest.8a1451b750b86c1ec3558686fdb03cbe.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c0f6502d.chunk.css.map": "/static/css/main.c0f6502d.chunk.css.map",
-    "static/js/2.dff4be3d.chunk.js.LICENSE.txt": "/static/js/2.dff4be3d.chunk.js.LICENSE.txt",
+    "static/css/main.4bd2f48c.chunk.css.map": "/static/css/main.4bd2f48c.chunk.css.map",
+    "static/js/2.ebcefda5.chunk.js.LICENSE.txt": "/static/js/2.ebcefda5.chunk.js.LICENSE.txt",
     "static/media/AntonWebbResume.pdf": "/static/media/AntonWebbResume.0d318af9.pdf",
     "static/media/auth.png": "/static/media/auth.37a6b167.png",
     "static/media/bread.png": "/static/media/bread.546dc4c6.png",
     "static/media/budgetCalculator.png": "/static/media/budgetCalculator.127eb16a.png",
-    "static/media/cascade.png": "/static/media/cascade.294e5e54.png",
+    "static/media/cascade.png": "/static/media/cascade.f70eeb8a.png",
     "static/media/coin.png": "/static/media/coin.9fae398c.png",
     "static/media/freddo.png": "/static/media/freddo.6bf1ad17.png",
     "static/media/glass.png": "/static/media/glass.e99a8c9f.png",
@@ -26,12 +26,13 @@
     "static/media/pi.png": "/static/media/pi.5ab58ae4.png",
     "static/media/planet.png": "/static/media/planet.98ac75a8.png",
     "static/media/synergy.png": "/static/media/synergy.178d4588.png",
+    "static/media/synergyOS.png": "/static/media/synergyOS.7bdc6415.png",
     "static/media/wonders.png": "/static/media/wonders.784a8990.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d8445b1d.js",
-    "static/js/2.dff4be3d.chunk.js",
-    "static/css/main.c0f6502d.chunk.css",
-    "static/js/main.2868fca2.chunk.js"
+    "static/js/2.ebcefda5.chunk.js",
+    "static/css/main.4bd2f48c.chunk.css",
+    "static/js/main.a81a4abe.chunk.js"
   ]
 }
