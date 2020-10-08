@@ -4,20 +4,17 @@ import "./MajorProjects.css";
 
 import glass from "../res/hd/glass.png";
 import cascade from "../res/hd/cascade.png";
+import synergy from "../res/hd/synergyOS.png";
 
 export default class MajorProjects extends Component {
   render() {
     return (
       <div id="MPContainer">
         <h1 id="MPTitle">Apps & Projects</h1>
-        {/* <p id="gallerySubtitle">
-          The Projects Gallery is meant to showcase all my smaller projects that
-          aren't massivly complex but are still worthy of being part of my
-          portfolio, as well as my language diversity.
-        </p> */}
 
         <MajorProjectTemplate
           name="Cascade"
+          type ='mobile'
           image={cascade}
           gpLink="https://play.google.com/store/apps/details?id=anton25360.github.com.cascade2"
           info="Cascade was my first foray into software development, and one of my
@@ -31,6 +28,7 @@ export default class MajorProjects extends Component {
         <h1 className="MPTDivider">...</h1>
         <MajorProjectTemplate
           name="Glass"
+          type ='mobile'
           image={glass}
           gpLink="https://play.google.com/store/apps/details?id=anton25360.github.com.cascade2"
           info="My first fully fledged React Native app. Glass uses an API to get data of a user-requested cocktail, and displays the ingredients, instructions, and an image in a  beautiful and intuitive UI. Cocktails can also be added to Favourites so they can be quickly previewed from the Favourites Tab. Uses AsyncStorage for persistent data storage and React state for fast and instant loading & previewing. Supports system Dark Mode."
@@ -38,9 +36,12 @@ export default class MajorProjects extends Component {
         <h1 className="MPTDivider">...</h1>
         <MajorProjectTemplate
           name="SynergyOS"
-          image={glass}
-          gpLink="https://play.google.com/store/apps/details?id=anton25360.github.com.cascade2"
-          info="Collaborative project. SynergyOS is a realistic browser-based OS built entirely in React. Includes a plethora of apps(office suite, calculator, NES Emulator), resizeable windows, a theme engine, custom icons, a startup animation, and more, the current time, an app drawer, and more!"
+          type ='desktop'
+          image={synergy}
+          gpLink="https://synergyos.now.sh/"
+          linkText='Click here for Demo' //use link text for apps!!
+          customClass='hideGPButton' //use for custom CSS
+          info="Collaborative project. SynergyOS is a realistic browser-based OS built entirely in React. Includes a plethora of apps(office suite, calculator, NES Emulator), resizeable windows, a theme engine, custom icons, a startup animation, and more! "
         />
         <h1 className="MPTDivider">...</h1>
       </div>
