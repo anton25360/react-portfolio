@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
+import MajorProjectTemplate from "./MajorProjectTemplate";
 
-export default function MajorProjects() {
-    return (
-        <div id='mProjectContainer'>
-            hello i am project!
-        </div>
-    )
+
+export default class MajorProjects extends Component {
+    render() {
+        return (
+            <div>
+                <MajorProjectTemplate namee='bro'></MajorProjectTemplate>
+            </div>
+        )
+    }
 }
