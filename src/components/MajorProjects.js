@@ -9,7 +9,7 @@ import synergy from "../res/hd/synergyOS.png";
 export default class MajorProjects extends Component {
   render() {
     return (
-      <div id="MPContainer">
+      <div className="MPContainer">
         <h1 id="MPTitle">Apps & Projects</h1>
 
         <MajorProjectTemplate
