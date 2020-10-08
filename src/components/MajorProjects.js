@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import MajorProjectTemplate from "./MajorProjectTemplate";
+import "./MajorProjects.css";
 
 
 export default class MajorProjects extends Component {
-    render() {
-        return (
-            <div>
-                <MajorProjectTemplate namee='bro'></MajorProjectTemplate>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div id='MPContainer'>
+        <MajorProjectTemplate namee="bro"></MajorProjectTemplate>
+      </div>
+    );
+  }
 }
