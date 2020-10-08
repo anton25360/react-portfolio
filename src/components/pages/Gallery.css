@@ -1,6 +1,6 @@
 #galleryContent {
   /* background-color: #ec2f4b; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 #galleryTitle {
   font-size: 60px;
@@ -16,8 +16,13 @@
 }
 
 #gallerySubtitle {
-  /* border: 2px solid red; */
   text-align: center;
   font-size: 20px;
   margin: 0 30% 0 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  #gallerySubtitle {
+    margin: 2%;
+  }
 }
