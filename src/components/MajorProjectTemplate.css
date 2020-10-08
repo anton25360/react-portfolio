@@ -1,5 +1,5 @@
 #MPTContainer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-flex;
     /* width: 250px; */
     
@@ -7,31 +7,36 @@
 
 #MPTImage{
     width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+
 }
 
 #MPTTextContainer{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 350px;
-    margin: 10px;
 }
 
 #MPTTitle{
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     text-align: start;
     font-size: 60px;
+    margin: 10px;
+    margin-top: 20px;
 }
 
 #MPTInfo{
-    border: 2px solid chocolate;
+    /* border: 2px solid chocolate; */
     text-align: start;
     font-size: 20px;
+    margin: 10px;
 
 
 }
 
 #MPTButton{
-    border: 2px solid gold;
-    /* text-align: start; */
     float: left;
+    width: 250px;
+    margin-left: -7px;
 
 }
