@@ -6,7 +6,7 @@ import Navbar from "../Navbar";
 import Landing from "../Landing";
 import About from "../About";
 import Skills from "../Skills";
-import SmallProjects from "../SmallProjects";
+import MajorProjects from "../MajorProjects";
 import Contact from "../Contact";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
       <Landing />
       <About />
       <Skills />
-      <SmallProjects />
+      <MajorProjects />
       <Contact />
     </div>
   );
