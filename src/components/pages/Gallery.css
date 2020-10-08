@@ -21,6 +21,29 @@
   margin: 0 30% 0 30%;
 }
 
+#galleryButton{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+
+  font-size: 17px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+
+  
+
+}
+
+.galleryButtonContainer{
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  /* background-color: rgb(246, 252, 255); */
+
+
+}
+
 @media only screen and (max-width: 600px) {
   #gallerySubtitle {
     margin: 5%;

@@ -15,6 +15,9 @@ function Gallery() {
         portfolio, as well as my language diversity.
       </p>
       <SmallProjects />
+      {/* <button id='galleryGoHome' className='landingTextBtn' onClick={() => this.scroll('.projTarget')}>Go Home</button> */}
+      <div className='galleryButtonContainer'><a id="galleryButton" href='/'>Go Home</a></div>
+
     </div>
   );
 }
