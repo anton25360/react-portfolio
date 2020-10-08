@@ -47,7 +47,7 @@
 
   #aboutTitleContainer {
     width: 100%;
-    text-align: start;
+    text-align: center;
     padding: 20px;
     padding-bottom: 0;
     padding-top: 0;
@@ -55,6 +55,9 @@
 
   .aboutText {
     width: 100%;
-    padding: 30px 40px 30px 20px;
+    /* padding: 30px 40px 30px 20px; */
+    padding: 20px;
+    text-align: center;
+
   }
 }
