@@ -19,15 +19,18 @@
 
 #MPTTitle{
     /* border: 2px solid aqua; */
-    text-align: start;
+    /* text-align: start; */
+    float: left;
     font-size: 60px;
-    margin: 10px;
-    margin-top: 20px;
+    /* margin: 10px; */
+    margin: 15px 0 0 7px;
+    display: inline-block;
 }
 
 #MPTInfo{
     /* border: 2px solid chocolate; */
     text-align: start;
+    float: left;
     font-size: 20px;
     margin: 10px;
 
@@ -39,4 +42,12 @@
     width: 250px;
     margin-left: -7px;
 
+}
+
+/* classes for gradient colours, must be capitalised!! */
+.Cascade {
+    background: linear-gradient(to right, #800080 0%, #ec2f4b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
 }
