@@ -38,6 +38,7 @@
 
 .skillsIndicator{
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 /* badges */
@@ -73,7 +74,7 @@
     display: inline-block;
     font-size: 20px;
     color: white;
-    margin: 0 5px 2px 0;
+    margin: 0 5px 5px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -86,13 +87,16 @@
 
     #skillsTitleContainer{
         width: 100%;
-        text-align: start;
+        text-align: center;
         padding: 20px;
         padding-bottom: 0;
     }
 
     .skillsText{
         width: 100%;
-        padding: 30px 40px 30px 20px;
+        /* padding: 30px 40px 30px 20px; */
+        padding: 20px 35px;
+        text-align: center;
+    
     }
 }
