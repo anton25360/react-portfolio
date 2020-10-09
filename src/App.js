@@ -6,14 +6,14 @@ import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
 
 function App() {
-  return ( 
-    <Router basename='/'>
+  return (
+    <Router basename={process.env.PUBLIC_URL + "/"}>
       <div>
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/gallery">
+          <Route path="/gallery">
             <Gallery />
           </Route>
         </Switch>
