@@ -6,7 +6,7 @@ import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
 
 function App() {
-  return (
+  return ( 
     <Router basename='/'>
       <div>
         <Switch>
