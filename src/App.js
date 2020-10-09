@@ -10,14 +10,19 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Landing />
-      <About />
-      <Skills />
-      <MajorProjects />
-      <Contact />
-    </div>
+    <Router basename='/'>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/gallery">
+            <Gallery />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+
   );
 }
 
