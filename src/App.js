@@ -7,7 +7,7 @@ import Gallery from "./components/pages/Gallery";
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div>
         <Switch>
           <Route exact path="/">
