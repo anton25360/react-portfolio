@@ -1,9 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
-import Home from "./components/pages/Home";
-import Gallery from "./components/pages/Gallery";
+import Navbar from "./components/Navbar";
+import Landing from "./components/Landing";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import MajorProjects from "./components/MajorProjects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+
   );
 }
 
