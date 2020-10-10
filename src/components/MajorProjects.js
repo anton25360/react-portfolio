@@ -31,8 +31,10 @@ export default class MajorProjects extends Component {
           name="Glass"
           type ='mobile'
           image={glass}
-          gpLink="https://play.google.com/store/apps/details?id=anton25360.github.com.cascade2"
-          info="My first fully fledged React Native app. Glass uses an API to get data of a user-requested cocktail, and displays the ingredients, instructions, and an image in a  beautiful and intuitive UI. Cocktails can also be added to Favourites so they can be quickly previewed from the Favourites Tab. Uses AsyncStorage for persistent data storage and React state for fast and instant loading & previewing. Supports system Dark Mode."
+          customClass='hideGPButton' //use for custom CSS
+          linkText='Coming soon to Android and iOS' //use link text for apps!!
+          gpLink={null}
+          info="My first fully fledged React Native app. Glass uses an API to get data of a user-requested cocktail, and displays the ingredients, instructions, and an image in a  beautiful and intuitive UI. Cocktails can also be added to Favourites so they can be quickly previewed from the Favourites Tab. Uses AsyncStorage for persistent data storage and React state for fast and instant loading & previewing. Supports system Dark Mode. "
         />
         <h1 className="MPTDivider">...</h1>
         <MajorProjectTemplate
