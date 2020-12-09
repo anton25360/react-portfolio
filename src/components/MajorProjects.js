@@ -47,7 +47,7 @@ export default class MajorProjects extends Component {
           info="Collaborative project. SynergyOS is a realistic browser-based OS built entirely in React. Includes a plethora of apps(office suite, calculator, NES Emulator), resizeable windows, a theme engine, custom icons, a startup animation, and more! "
         />
         <h1 className="MPTDivider">...</h1>
-        <p id='MPSubtitle'><span style={{fontSize: '25px'}}>Looking for more?</span><br/> Check out the <Link id='aboutLink' to="/gallery">Projects Gallery</Link> for all my other projects, or visit my <a id='aboutLink' href='https://github.com/anton25360'>Github</a>.</p>
+        <p id='MPSubtitle'><span style={{fontSize: '25px'}}>Looking for more?</span><br/><br/> Check out the <Link id='aboutLink' to="/gallery">Projects Gallery</Link> for all my other projects, or visit my <a id='aboutLink' href='https://github.com/anton25360'>Github</a>.</p>
       </div>
     );
   }
