@@ -18,9 +18,9 @@ export class Navbar extends Component {
             <div className='navContainer'>
                 <nav>
                     <p className='navElement navLeft'><spam id='slash'>/</spam>anton</p>
-                    <a className='navElement navRight' href='#contact' onClick={() => this.scroll('.contactContainer')}>Contact</a>
-                    <a className='navElement navRight' href='#projects' onClick={() => this.scroll('.MPContainer')}>Projects</a>
-                    <a className='navElement navRight' href="#about" onClick={() => this.scroll('.aboutContainer')}>About</a>
+                    <button className='navElement navRight' onClick={() => this.scroll('.contactContainer')}>Contact</button>
+                    <button className='navElement navRight' onClick={() => this.scroll('.MPContainer')}>Projects</button>
+                    <button className='navElement navRight' onClick={() => this.scroll('.aboutContainer')}>About</button>
 
                 </nav>
 
